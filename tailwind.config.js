@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: ['Bebas Neue', 'sans-serif'],
+      }
+    },
   },
   plugins: [
     require("@xpd/tailwind-3dtransforms")
